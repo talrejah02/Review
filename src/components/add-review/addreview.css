@@ -1,0 +1,70 @@
+.Addreview{
+    background-image: var(--bg-shape-color);
+    /* box-shadow: -2px -2px 2px 0px rgba(80, 80, 80, 0.1), 2px 2px 3px 0px rgba(12, 12, 12, 0.3), inset 0px 0px 0px 2px rgba(80, 80, 80, 0.2); */
+    box-shadow: 0px 0px 5px 1px #384057;
+   height:90%;
+   width:30%;
+   margin-left: 2rem;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: var(--text-color)
+
+}
+.review-svg{
+    height:4rem;
+    width:4rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding:0.4rem;
+}
+.head span{
+    margin-left: 2rem;
+        font-size: 1.4rem;
+        font-weight:400;
+    }
+    
+    .Addreview button{
+    width:30%;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin-top:2rem;
+    border: none;
+    border-radius: 7px;
+    color:#ffff;
+    background-image: linear-gradient(85deg, #61c7ef, #4833fb);
+}
+.review-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+    height:100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 1rem;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+    padding:0.2rem;
+    /* height:2rem; */
+}
+textarea{
+    height:6rem;
+    width:20rem;
+    border: none;
+    margin-top: 0.4rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding:0.2rem;
+}

@@ -1,0 +1,18 @@
+.list{
+    background-image: linear-gradient(120deg, rgba(52,58,79,1) 0%, rgba(15,22,32,1) 51%);
+    box-shadow: 0px 0px 5px 1px #384057;
+    height:89%;
+    width:64%;
+    margin-left: 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 0.5rem;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* background-image: linear-gradient(120deg, rgba(52,58,79,1) 53%, rgba(15,22,32,1) 90%); */
